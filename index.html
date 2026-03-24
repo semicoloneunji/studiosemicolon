@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Eungji | Renewal</title>
+    <style>
+        body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #ffffff; font-family: 'Pretendard', sans-serif; color: #1a1a1a; }
+        .container { text-align: center; display: flex; flex-direction: column; align-items: center; }
+
+        /* --- [수정] 로고 크기 조절하기 --- */
+        .logo {
+            height: auto; /* 가로 세로 비율 유지 */
+            max-width: 250px; /* 로고의 최대 가로 크기. 원하는 크기로 숫자를 바꿔봐! */
+            margin-bottom: 3rem; /* 로고와 아래 텍스트 사이의 여백 */
+            display: block;
+        }
+
+        .status { font-size: 3rem; font-weight: 200; margin-bottom: 4rem; line-height: 1.2; }
+        .contact { border-top: 1px solid #eee; padding-top: 2rem; width: 100%; max-width: 400px;}
+        .contact p { margin: 0.5rem 0; font-size: 0.9rem; letter-spacing: 0.05rem; }
+        .contact a { color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #1a1a1a; padding-bottom: 2px; transition: opacity 0.3s; }
+        .contact a:hover { opacity: 0.5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo_black.png" alt="Studio Eungji Logo" class="logo">
+        
+        <div class="status">
+            현재는 내부 리뉴얼 중입니다.<br>아래로 문의 주세요.
+        </div>
+        <div class="contact">
+            <p>For project inquiries</p>
+            <p>Email: <a href="mailto:eunji@studiosemicolon.kr">eunji@studiosemicolon.kr</a></p>
+            <p>Kakao: <a href="http://pf.kakao.com/_xkLIAn/chat">@스튜디오세미콜론</a></p>
+        </div>
+    </div>
+</body>
+</html>
